@@ -74,6 +74,35 @@ public interface DogFactApi {
 }
 ```
 
+3. With everything done, on the Generator.java class we create a method that will use Retrofit2 library to make the API call. Like this:
+
+```java
+public void generateDogFact(TextView textView){
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://dogapi.dog") // API base URL
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        DogFactApi dogFactApi = retrofit.create(DogFactApi.class);
+        Call<DogFact> factCall = dogFactApi.getDogFact();
+
+        factCall.enqueue(new Callback<DogFact>() {
+            @Override
+            public void onResponse(Call<DogFact> call, Response<DogFact> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    DogFact jsonResponse = response.body();
+                    List<Data> dogFactList =  new ArrayList<>(Arrays.asList(jsonResponse.getData()));
+                    String text = dogFactList.get(0).getAttributes().getBody();
+                    textView.setText(text);
+                }
+            }
+            @Override
+            public void onFailure(Call<DogFact> call, Throwable t) {
+                System.out.println("failed");
+            }
+        });
+    }
+```
 ## Main files
 
 ### MainActivity.java
@@ -85,4 +114,19 @@ public interface DogFactApi {
 - Creation of the navigation bar connected to the Main and Trivia activities.
 
 ## Trivia.java
+- Checks if the User chose Cat or Dog, depending on the choice we call the corresponding methods for generating image and retrieving questions.
+- Creates an instance of the generator to show a random image on the Trivia.
+- Creation of several methods to manage the JSON:
+    - loadJSONFromAsset: Loads the JSON file received as a parameter
+    - readJSON: Reads the JSON file, saves the data on arrays and puts the data randomly grabbed from the array on the Views.
+
+
+## Secondary files
+
+├───cat
+│   ├───api
+│   └───pojo
+├───dog
+│   ├───api
+│   └───pojo
 
