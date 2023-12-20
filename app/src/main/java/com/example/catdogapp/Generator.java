@@ -91,7 +91,6 @@ public class Generator extends AppCompatActivity {
 
 
     public void generateCatImage(ImageView imageView){
-
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.thecatapi.com/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -155,20 +154,6 @@ public class Generator extends AppCompatActivity {
             public void onResponse(Call<CatFact> call, Response<CatFact> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     String text = response.body().getText();
-                    /*
-                    if(!text.contains("cat")){
-                        generateCatFact(textView);
-                    }
-                    else if(Pattern.matches(".*\\p{InCyrillic}.*", text)){
-                        generateCatFact(textView);
-                    }
-                    else if(text.length() < 20){
-                        generateCatFact(textView);
-                    }
-                    else {
-                        textView.setText(text);
-                    }
-                    */
                     textView.setText(text);
                 }
             }
