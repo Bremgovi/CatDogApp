@@ -1,4 +1,4 @@
-package com.example.catdogapp.trivia;
+package com.example.catdogapp;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,9 +12,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.catdogapp.Generator;
-import com.example.catdogapp.MainActivity;
-import com.example.catdogapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.json.JSONArray;
@@ -97,7 +94,7 @@ public class Trivia extends AppCompatActivity {
         }
     }
 
-    public void readJSON(String jsonFileName){
+            public void readJSON(String jsonFileName){
         // Read JSON
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset(jsonFileName));

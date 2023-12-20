@@ -19,7 +19,6 @@ import com.example.catdogapp.dog.pojo.DogFact;
 import com.example.catdogapp.dog.api.DogFactApi;
 import com.example.catdogapp.dog.pojo.DogImage;
 import com.example.catdogapp.dog.api.DogImageApi;
-import com.example.catdogapp.trivia.Trivia;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.squareup.picasso.Picasso;
 
