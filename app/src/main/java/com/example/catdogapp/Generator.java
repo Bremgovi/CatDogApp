@@ -142,7 +142,7 @@ public class Generator extends AppCompatActivity {
     }
     public void generateCatFact(TextView textView){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://catfact.ninja") //https://cat-fact.herokuapp.com
+                .baseUrl("https://catfact.ninja")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

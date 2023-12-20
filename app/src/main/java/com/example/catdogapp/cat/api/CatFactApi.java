@@ -6,6 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface CatFactApi {
-    @GET("fact") //facts/random
+    @GET("fact")
     Call<CatFact> getCatFact();
 }
