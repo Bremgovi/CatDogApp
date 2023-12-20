@@ -122,11 +122,23 @@ public void generateDogFact(TextView textView){
 
 
 ## Secondary files
-
+The secondary files are organized like this, were we have a folder for cat and a folder for a dog. Each folder has the API folder with its corresponding files and the POJO file with the corresponding class structure.
+Basically the API and POJO files follow the same structure and rules as the example stated above.
+```
 ├───cat
 │   ├───api
+│       └─── CatFactApi.java
+│       └─── CatImageApi.java
 │   └───pojo
+│       └─── CatFact.java
+│       └─── CatImage.java
 ├───dog
 │   ├───api
+│       └─── DogFactApi.java
+│       └─── DogImageApi.java
 │   └───pojo
-
+│       └─── Attributes.java
+│       └─── Data.java
+│       └─── DogFact.java
+│       └─── DogImage.java
+```
