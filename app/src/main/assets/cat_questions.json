@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Which breed of cat is known for its short legs and ears?",
+      "answers": ["Siamese", "Persian", "Scottish Fold", "Munchkin"],
+      "correct_answer": "Munchkin"
+    },
+    {
+      "question": "What sound do cats commonly make when content?",
+      "answers": ["Barking", "Purring", "Squeaking", "Hissing"],
+      "correct_answer": "Purring"
+    },
+    {
+      "question": "Who is the creator of the famous cartoon character 'Tom'?",
+      "answers": ["Hanna-Barbera", "Walt Disney", "Jim Henson", "William Hanna"],
+      "correct_answer": "William Hanna"
+    },
+    {
+      "question": "What type of food are many cats allergic to?",
+      "answers": ["Fish", "Chicken", "Beef", "Vegetables"],
+      "correct_answer": "Fish"
+    },
+    {
+      "question": "Which cat breed is often known for its long, fluffy fur?",
+      "answers": ["Bengal", "Sphynx", "Persian", "Siamese"],
+      "correct_answer": "Persian"
+    },
+    {
+      "question": "What is a group of kittens commonly called?",
+      "answers": ["Litter", "Pack", "Flock", "Clowder"],
+      "correct_answer": "Litter"
+    },
+    {
+      "question": "What do cats do when they rub their faces against objects to mark territory?",
+      "answers": ["Scratch", "Sneeze", "Bite", "Scent Mark"],
+      "correct_answer": "Scent Mark"
+    },
+    {
+      "question": "Which famous scientist is associated with the 'Schrodinger's Cat' thought experiment?",
+      "answers": ["Albert Einstein", "Stephen Hawking", "Erwin Schrödinger", "Isaac Newton"],
+      "correct_answer": "Erwin Schrödinger"
+    },
+    {
+      "question": "How many toes do most cats have on each front paw?",
+      "answers": ["Four", "Five", "Six", "Three"],
+      "correct_answer": "Five"
+    },
+    {
+      "question": "Which ancient civilization held cats in high esteem, considering them sacred animals?",
+      "answers": ["Roman Empire", "Egyptian Civilization", "Greek Empire", "Aztec Civilization"],
+      "correct_answer": "Egyptian Civilization"
+    }
+  ]
+}

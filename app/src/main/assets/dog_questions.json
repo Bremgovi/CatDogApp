@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Which breed of dog is known for its distinctive folded ears?",
+      "answers": ["Poodle", "Bulldog", "Corgi", "Scottish Fold"],
+      "correct_answer": "Scottish Fold"
+    },
+    {
+      "question": "Which dog behavior involves wagging its tail when happy?",
+      "answers": ["Barking", "Whining", "Howling", "Tail Wagging"],
+      "correct_answer": "Tail Wagging"
+    },
+    {
+      "question": "Who created the cartoon character 'Scooby-Doo'?",
+      "answers": ["Hanna-Barbera", "Matt Groening", "Jim Henson", "Walt Disney"],
+      "correct_answer": "Hanna-Barbera"
+    },
+    {
+      "question": "What type of food are many dogs allergic to?",
+      "answers": ["Fish", "Chicken", "Beef", "Vegetables"],
+      "correct_answer": "Chicken"
+    },
+    {
+      "question": "Which dog breed is often associated with having curly fur?",
+      "answers": ["Golden Retriever", "Labrador Retriever", "Poodle", "German Shepherd"],
+      "correct_answer": "Poodle"
+    },
+    {
+      "question": "What is a group of puppies commonly called?",
+      "answers": ["Litter", "Pack", "Flock", "Herd"],
+      "correct_answer": "Litter"
+    },
+    {
+      "question": "What do dogs do when they rub their faces against objects to mark territory?",
+      "answers": ["Scratch", "Sneeze", "Bite", "Scent Mark"],
+      "correct_answer": "Scent Mark"
+    },
+    {
+      "question": "Which famous scientist is associated with the 'Pavlov's Dogs' experiment?",
+      "answers": ["Albert Einstein", "Ivan Pavlov", "Charles Darwin", "Sigmund Freud"],
+      "correct_answer": "Ivan Pavlov"
+    },
+    {
+      "question": "How many toes do most dogs have on each front paw?",
+      "answers": ["Four", "Five", "Six", "Three"],
+      "correct_answer": "Five"
+    },
+    {
+      "question": "Which ancient civilization believed that dogs guided souls to the afterlife?",
+      "answers": ["Roman Empire", "Egyptian Civilization", "Greek Empire", "Aztec Civilization"],
+      "correct_answer": "Egyptian Civilization"
+    }
+  ]
+}
